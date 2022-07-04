@@ -35,3 +35,26 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experiences-area {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experiences-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 25px;
+  box-shadow: 10px 10px 25px gray;
+}
+#full-stack-developer {
+  border-left: 7px solid orange;
+}
+#beginner-developer {
+  border-left: 7px solid blue;
+}
+footer p {
+  /* color: wheat; */
+  font-weight: 200;
+  text-align: center;
+}
