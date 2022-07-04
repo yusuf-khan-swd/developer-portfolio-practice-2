@@ -1,6 +1,12 @@
 body {
   margin: 0;
 }
+h1 {
+  font-size: 50px;
+}
+.orange-color {
+  color: orange;
+}
 .intro {
   background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
@@ -11,4 +17,21 @@ body {
 }
 .half-width {
   width: 40%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, orange);
+  color: white;
+  padding: 10px 40px;
+  border: 1px solid black;
+  font-weight: 800;
+}
+.dream-area {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
