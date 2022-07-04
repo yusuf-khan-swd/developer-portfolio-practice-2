@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+.intro {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.flexible-content {
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 40%;
+}
